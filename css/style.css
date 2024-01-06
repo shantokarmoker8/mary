@@ -11,18 +11,31 @@ li {
   list-style: none;
 }
 /* ---------------nav style-------------- */
-.primerry-color {
+.text-primerry {
   color: #fd6e0a;
+}
+.btn-primerry {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  background: #fd6e0a;
+  border-radius: 5px;
+  border: none;
+  padding: 18px 35px;
 }
 nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 nav > ul {
   display: flex;
+  align-items: center;
 }
 nav ul li {
   padding: 0 25px;
 }
 nav ul li a {
   color: #000000;
+  font-size: 20px;
 }
