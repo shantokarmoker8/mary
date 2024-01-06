@@ -98,8 +98,9 @@ nav ul li a {
   padding: 17px 34px;
 }
 
-.banner > img {
-  width: 500px;
+.banner .hero {
+  position: relative;
+  top: 0;
   right: 0;
 }
 /* ------------------------main area------------------------ */
@@ -144,4 +145,22 @@ main {
   color: #474747;
   font-size: 20px;
   font-weight: 700;
+}
+/* ---------------what i do--------------- */
+
+.What-i-do {
+  text-align: center;
+}
+.What-i-do h3 {
+  color: #181818;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+.What-i-do p {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 50px;
 }
