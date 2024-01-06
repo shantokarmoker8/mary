@@ -12,6 +12,8 @@ li {
 }
 .header-area {
   background: #fff8f3;
+  margin: 0;
+  padding: 0;
 }
 /* ---------------nav style-------------- */
 .text-primerry {
@@ -27,6 +29,7 @@ li {
   padding: 18px 35px;
 }
 
+/* ----------------navbar area----------------- */
 nav {
   display: flex;
   justify-content: space-between;
@@ -48,4 +51,48 @@ nav ul li {
 nav ul li a {
   color: #000000;
   font-size: 20px;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.banner-content {
+  padding-left: 225px;
+  padding-top: 50px;
+}
+.banner-content h3 {
+  color: var(--Dark-02, #474747);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 45px;
+  font-weight: 600;
+}
+.banner-content h1 {
+  color: var(--Dark-01, #181818);
+
+  font-size: 85px;
+
+  font-weight: 700;
+}
+.banner-content p {
+  color: var(--Dark-03, #757575);
+
+  font-size: 18px;
+
+  font-weight: 400;
+  line-height: 30px;
+}
+.btn-contact {
+  border: 1px solid #fd6e0a;
+  color: #fd6e0a;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 17px 34px;
+}
+
+.banner > img {
+  width: 500px;
+  right: 0;
 }
